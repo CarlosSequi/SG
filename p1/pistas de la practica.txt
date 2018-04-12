@@ -1,0 +1,24 @@
+Estrella sol = new Estrella(.....);
+Planeta tierra = new PLaneta(.....);
+sol.addPlaneta(tierra);
+Satelite luna = new Satelite...
+tierra.addSatelite(luna);
+_________________________
+
+a la hora de hacer los grafos, hay que hacer por separado los grafos de:
+-un planeta
+-una estrella
+-un satelite
+
+Cuando los tengamos, de alguno de los nodos de la estrella saldra algun arco a la raiz de los planetas que giran entorno a el y, alguno de los
+nodos de los planetas saldran hacia el nodo raiz de los satelites que giren en torno a el.
+
+El constructor de Estrella se encarga de crear los nodos que cuelgan de él.
+Los arcos que he nombrado antes, es decir, los que unen una estrella con un/unos planeta/planetas se hacen en los metodos addPlaneta, addSatelite
+etc.
+
+
+COSAS A ENTREGAR:
+-grafo de escena
+-diagrama de clases
+-proyecto en netbeans

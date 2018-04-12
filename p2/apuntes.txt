@@ -1,0 +1,10 @@
+desde una consola hacer eso para lanzar el servidor web local:
+
+	python -m SimpleHTTPServer
+
+-para windows10:
+	python -m httpServer 8000
+
+__________
+
+para acceder con la url:    localhost:8000
